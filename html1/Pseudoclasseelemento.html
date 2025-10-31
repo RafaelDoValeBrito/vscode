@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title> Exemplo de Pseudoclasses em CSS </title>
+    <style>
+     #link:hover {
+
+        
+           color: #ff3c00;
+           text-decoration: underline;
+       }  
+      #container-texto::first-line {
+              
+            background-color: #ff7b00;
+            color: #000000;
+            text-transform: uppercase;
+         }   
+        #container-texto2 {
+                
+                background-color: #ff8800;
+                color: #000000;
+                padding: 20px;
+                border: #000000 2px solid;
+                margin-top: 15px;
+
+                
+             }
+        
+         
+    </style>
+</head>
+<body>
+    <div id="container">
+    <h1> Exemplo de Pseudoclasses em CSS </h1>
+    <p id="container-texto"> Passe o mouse sobre o link abaixo para ver a pseudoclasse em ação: </p>
+    <p id="container-texto2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+    <a href="" id="link"> link </a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+body {
+
+    background-color: rgb(172, 123, 123);
+    color: rgb(0, 0, 0);
+   
+}
+
+#V1 {
+
+    background-color: rgb(87, 85, 85);
+    color: rgb(247, 0, 0);
+}
+
+#V2 {
+
+    background-color: rgb(85, 85, 85);
+   color: rgb(255, 0, 0);
+
+
+}
+
+#container {
+
+    margin-top: 100px;
+    margin-left: 500px;
+
+}
